@@ -11,7 +11,6 @@ using System.Diagnostics;
 
 /*
  * HarmonyConnector - A Plugin that connects a ProjectP AI NPC with Harmony Link
- * Author: katoki (ProjectP) and RuntimeRacer (Project Harmony.AI)
  * Version: 0.1
  * Compatibility: Harmony Link v0.2.0 onwards.
  * 
@@ -53,7 +52,7 @@ public class HarmonyConnector : CustomBehaviour
     private string _harmonySessionId;
     private ClientWebSocket _webSocketClient;
     public string chatResult = null;
-    // Sync Strings are used across Unity Plugins and Components to exchange information (interal, global state machine)
+    // Sync Strings are used across Unity Plugins and Components to exchange information (interal, global state machine). Also, the value gets replicated across all connected game clients.
     public SyncString npcName;
 
     // Implements Start() method of CustomBehaviour

@@ -5,10 +5,11 @@ using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.UI;
+using Unity.AI.Navigation;
+using System.Linq;
 
 /*
  * HarmonyNpcController - AddOn for Harmony Connector, which allows it to control a ProjectP AI NPC.
- * Author: katoki (ProjectP) and RuntimeRacer (Project Harmony.AI)
  * Version: 0.1
  * Compatibility: Harmony Link v0.2.0 onwards.
  * 
@@ -26,12 +27,13 @@ public class HarmonyNpcController : CustomBehaviour
     // Reference to Harmony Connector
     public HarmonyConnector harmonyConnector;
 
-    // Sync Strings are used across Unity Plugins and Components to exchange information (interal, global state machine)
+    // Sync Strings are used across Unity Plugins and Components to exchange information (interal, global state machine). Also, the value gets replicated across all connected game clients.
     // npcName gets updated by the Connector with the name of the Entity received via ChatHistory Event
     public SyncString npcName;
 
     void Start()
     {
+
         npcName = new SyncString(this, "npcName");
         animator = GetComponent<Animator>();
         nav = gameObject.GetComponent<NavMeshAgent>();
@@ -51,6 +53,9 @@ public class HarmonyNpcController : CustomBehaviour
         head = animator.GetBoneTransform(HumanBodyBones.Head);
         nav.ResetPath();
         nav.isStopped = false;
+
+        NavMeshSurface closestNavMeshSurface = GetClosestNavMeshSurface();
+        if (closestNavMeshSurface != null) nav.agentTypeID = closestNavMeshSurface.agentTypeID;
 
         SetVoiceCallback(GetPlayer().id, CallbackVoice);
     }
@@ -181,6 +186,14 @@ public class HarmonyNpcController : CustomBehaviour
             return b;
         }
         else return new Bounds();
+    }
+
+    private NavMeshSurface GetClosestNavMeshSurface()
+    {
+        NavMeshSurface closestSurface = FindObjectsOfType<NavMeshSurface>()
+            .OrderBy(surface => Vector3.Distance(transform.position, surface.transform.position))
+            .FirstOrDefault();
+        return closestSurface;
     }
 
 }

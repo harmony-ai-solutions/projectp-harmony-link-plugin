@@ -9,7 +9,6 @@ using UnityEngine;
 
 /*
  * HarmonyVoice - Simple AddOn for Harmony Connector, which allows it to render AI Voiceover Events
- * Author: katoki (ProjectP) and RuntimeRacer (Project Harmony.AI)
  * Version: 0.1
  * Compatibility: Harmony Link v0.2.0 onwards.
  */
@@ -19,7 +18,7 @@ public class HarmonyVoice : CustomBehaviour
     AudioSource audioSource = null;    
     Transform head;
 
-    // Sync Strings are used across Unity Plugins and Components to exchange information (interal, global state machine)
+    // Sync Strings are used across Unity Plugins and Components to exchange information (interal, global state machine). Also, the value gets replicated across all connected game clients.
     // npcAudioBase64 gets updated by the Connector each time there is a new Audio event received
     SyncString npcAudioBase64;
 
