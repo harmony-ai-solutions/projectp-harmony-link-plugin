@@ -16,6 +16,7 @@ provided by Harmony-Link, such as Real-Time Conversation Abilities (Using AI Lan
 Expressions and Interaction capabilities, turning them into interactive virtual companions.
 
 This Plugin provides an alternative AI Engine to ProjectP's native AI engine, which heavily builds on OpenAI.
+
 ---
 
 If you're curious for a little demonstration for Harmony-Link's capabilities, please check out our Tech Demo on Youtube (video from Chara Studio):
@@ -32,6 +33,7 @@ Their Community Discord: https://discord.com/invite/BNaXMhzzmr
 Project P Setup Guide: https://docs.google.com/document/d/1SvNf_yD0emWqA1daBFkbwAJtW68b0EcNlbWwmD8hSmc/edit
 
 Harmony Link Plugin for ProjectP: https://github.com/harmony-ai-solutions/projectp-harmony-link-plugin
+
 ---
 
 Currently, this Plugin as well as Harmony Link is still in an early development stage, and therefore is merely a tech
