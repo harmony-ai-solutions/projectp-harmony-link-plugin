@@ -26,11 +26,6 @@ If you're curious for a little demonstration for Harmony-Link's capabilities, pl
 Some more Impressions from their Game (A little outdated; NOT Harmony Link's Engine; they have tons of new features now!): 
 
 [![ProjectP Demo](https://img.youtube.com/vi/SQkg9LEN7FE/0.jpg)](https://www.youtube.com/watch?v=SQkg9LEN7FE)
----
-
-[ProjectP Community Discord](https://discord.com/invite/BNaXMhzzmr)
-
-[ProjectP Setup Guide](https://docs.google.com/document/d/1SvNf_yD0emWqA1daBFkbwAJtW68b0EcNlbWwmD8hSmc/)
 
 ---
 
@@ -55,6 +50,12 @@ and other AI powered entities "at their will".
 
 ## Quickstart
 To get started quickly, please have a look at our [Quickstart guide](https://project-harmony.youtrack.cloud/articles/HARMONY-A-9/Quickstart).
+
+For Setting up ProjectP, please refer to the following Links:
+
+[ProjectP Community Discord](https://discord.com/invite/BNaXMhzzmr)
+
+[ProjectP Setup Guide](https://docs.google.com/document/d/1SvNf_yD0emWqA1daBFkbwAJtW68b0EcNlbWwmD8hSmc/)
 
 ## Documentation & Resources
 For a detailed understanding of Harmony Link and the underlying concepts, as well as for getting started with development
