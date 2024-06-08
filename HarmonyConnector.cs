@@ -7,7 +7,6 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System.Net;
 using UnityEngine;
-using System.Diagnostics;
 
 /*
  * HarmonyConnector - A Plugin that connects a ProjectP AI NPC with Harmony Link
