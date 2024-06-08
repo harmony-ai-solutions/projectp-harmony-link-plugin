@@ -22,7 +22,9 @@ If you're curious for a little demonstration for Harmony-Link's capabilities, pl
 
 [![Add Human-like AI Characters to ANY Game - BETA Tech Demo #1 - Project Harmony AI](https://img.youtube.com/vi/wcuvrr2QSNY/0.jpg)](https://www.youtube.com/watch?v=wcuvrr2QSNY)
 
-Some more Impressions from their Game (A little outdated; NOT Harmony Link's' Engine; they have tons of new features now!): https://www.youtube.com/watch?v=SQkg9LEN7FE
+Some more Impressions from their Game (A little outdated; NOT Harmony Link's' Engine; they have tons of new features now!): 
+
+[![ProjectP Demo](https://img.youtube.com/vi/SQkg9LEN7FE/0.jpg)](https://www.youtube.com/watch?v=SQkg9LEN7FE)
 ---
 
 Their Community Discord: https://discord.com/invite/BNaXMhzzmr
