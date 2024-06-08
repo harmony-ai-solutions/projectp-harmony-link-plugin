@@ -19,13 +19,13 @@ This Plugin provides an alternative AI Engine to ProjectP's native AI engine, wh
 
 ---
 
-If you're curious for a little demonstration for Harmony-Link's capabilities, please check out our Tech Demo on Youtube (video from Chara Studio):
-
-[![Add Human-like AI Characters to ANY Game - BETA Tech Demo #1 - Project Harmony AI](https://img.youtube.com/vi/wcuvrr2QSNY/0.jpg)](https://www.youtube.com/watch?v=wcuvrr2QSNY)
-
-Some more Impressions from their Game (A little outdated; NOT Harmony Link's Engine; they have tons of new features now!): 
+Some more Impressions from ProjectP (A little outdated; NOT Harmony Link's Engine; they have tons of new features now!): 
 
 [![ProjectP Demo](https://img.youtube.com/vi/SQkg9LEN7FE/0.jpg)](https://www.youtube.com/watch?v=SQkg9LEN7FE)
+
+If you're also curious for a little demonstration for Harmony-Link's capabilities, please check out our Tech Demo on Youtube (video from Chara Studio):
+
+[![Add Human-like AI Characters to ANY Game - BETA Tech Demo #1 - Project Harmony AI](https://img.youtube.com/vi/wcuvrr2QSNY/0.jpg)](https://www.youtube.com/watch?v=wcuvrr2QSNY)
 
 ---
 
