@@ -23,16 +23,14 @@ If you're curious for a little demonstration for Harmony-Link's capabilities, pl
 
 [![Add Human-like AI Characters to ANY Game - BETA Tech Demo #1 - Project Harmony AI](https://img.youtube.com/vi/wcuvrr2QSNY/0.jpg)](https://www.youtube.com/watch?v=wcuvrr2QSNY)
 
-Some more Impressions from their Game (A little outdated; NOT Harmony Link's' Engine; they have tons of new features now!): 
+Some more Impressions from their Game (A little outdated; NOT Harmony Link's Engine; they have tons of new features now!): 
 
 [![ProjectP Demo](https://img.youtube.com/vi/SQkg9LEN7FE/0.jpg)](https://www.youtube.com/watch?v=SQkg9LEN7FE)
 ---
 
-Their Community Discord: https://discord.com/invite/BNaXMhzzmr
+[ProjectP Community Discord](https://discord.com/invite/BNaXMhzzmr)
 
-Project P Setup Guide: https://docs.google.com/document/d/1SvNf_yD0emWqA1daBFkbwAJtW68b0EcNlbWwmD8hSmc/edit
-
-Harmony Link Plugin for ProjectP: https://github.com/harmony-ai-solutions/projectp-harmony-link-plugin
+[ProjectP Setup Guide](https://docs.google.com/document/d/1SvNf_yD0emWqA1daBFkbwAJtW68b0EcNlbWwmD8hSmc/)
 
 ---
 
@@ -48,6 +46,7 @@ and other AI powered entities "at their will".
 - 2024-06-08: **Version 0.2.0** released, featuring a new Config UI, improved Speech-To-Text under Windows, and basic Movement
   API support on Harmony-Link side. For the full list of updates see our 
   [Changelog](https://project-harmony.youtrack.cloud/articles/HARMONY-A-10/Releases-Changelog).
+- 2024-06-08: **[ProjectP-Plugin for Harmony Link](https://github.com/harmony-ai-solutions/projectp-harmony-link-plugin)** released.
 - 2024-01-04: Our new **[Youtube-Channel](https://www.youtube.com/@Harmony-AI)** including the first official Tech Demo 
   for Project Harmony is now live! Feel free to check it out.  
 - 2023-10-01: Our official [Project Website](https://project-harmony.ai/) was launched. Finally we have an official Home on the Web. :-)
